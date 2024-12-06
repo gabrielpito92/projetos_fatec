@@ -25,7 +25,7 @@ __❔ Perguntas respondidas:__
 
 ![Espaço](imgs/espaco_menor.png)   
 ## ⛈️  Projeto 3 [🔗 Acessar](INMET_enchentes_RS/canela_RS.ipynb)
-- Análise de um conjunto de dados do Instituto Nacional de Meteorologia (INMET) sobre a cidade Canela-RS: ENCHENTES NO ESTADO DO RIO GRANDE DO SUL - BRASIL.  
+### - Análise de um conjunto de dados do Instituto Nacional de Meteorologia (INMET) sobre a cidade Canela-RS: ENCHENTES NO ESTADO DO RIO GRANDE DO SUL - BRASIL.  
 
 __🧭 CIDADE ALVO: Canela - RS__  
 Canela localiza-se na micro-região 309 (RS), nos degraus da encosta infeior nordeste e na extremidade sul da Serra Geral. O município é dividio pelo Rio Caí (Santa Cruz), abrangendo as nascentes do Rio Paranhana (Santa Maria).  
