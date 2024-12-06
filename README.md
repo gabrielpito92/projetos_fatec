@@ -3,7 +3,7 @@
 Projetos desenvolvidos em Python durante minha graduação em Ciência de Dados pela FATEC - Ourinhos/SP. É importante destacar que esses projetos refletem o aprendizado adquirido ao longo do curso e representam etapas significativas da minha evolução acadêmica e profissional. __Atualmente, consigo identificar melhorias e otimizações que podem ser implementadas, evidenciando o quanto o processo de aprendizado contribuiu para meu desenvolvimento contínuo na área de ciência de dados.__
 
 ![Espaço](imgs/espaco_menor.png)  
-## 🥇 Projeto 1 [🔗 Acessar]()
+## 🥇 Projeto 1 [🔗 Acessar](hackathon/Hackathon.ipynb)
 ### - Hackathon FATEC-Ourinhos: Detecção de Anomalias e Ineficiência do Motor.
 *Equipe Campeã do Evento! 🏆   
 
