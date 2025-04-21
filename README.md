@@ -45,7 +45,7 @@ Catálogo de estações automáticas do INMET: https://portal.inmet.gov.br/pagin
 
 
 ![Espaço](imgs/espaco_menor.png)   
-## 💼 Projeto 4 [🔗 Acessar](.ipynb)
+## 💼 Projeto 4 [🔗 Acessar](ML1_FATEC_Ecommerce/README.md)
 ### E-Commerce Analytics com Python 🐍 
 Este projeto foi desenvolvido como trabalho avaliativo da disciplina de Machine Learning I, no 5º termo do Curso de Ciência de Dados da FATEC – Ourinhos.
  
