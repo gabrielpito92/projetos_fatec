@@ -42,3 +42,27 @@ __🌎 DENTRE TANTAS CIDADES ATINGIDAS PORQUE ANALISAR CANELA-RS?__
 Portanto, além de Canela ser uma das cidades mais afetadas pelas enchentes no RS, se destaca por possuir mais dados históricos (desde 2008) provenientes da estação automática A879 para serem analisados.
 
 Catálogo de estações automáticas do INMET: https://portal.inmet.gov.br/paginas/catalogoaut
+
+
+![Espaço](imgs/espaco_menor.png)   
+## 💼 Projeto 4 [🔗 Acessar](.ipynb)
+### E-Commerce Analytics com Python 🐍 
+Este projeto foi desenvolvido como trabalho avaliativo da disciplina de Machine Learning I, no 5º termo do Curso de Ciência de Dados da FATEC – Ourinhos.
+ 
+__Professor:__ Vinicius Godoy  
+__Aluno:__ Pedro Gabriel Pito Lopes  
+__RA:__ 0211352313008 – Período Noturno  
+
+
+![Representação](imgs/ecommerce-regressao.jpg) 
+Este projeto completo de análise de dados no contexto de E-Commerce foi desenvolvido em quatro etapas principais e interdependentes, refletindo o fluxo natural de um projeto de ciência de dados, desde a compreensão inicial dos dados até a geração de valor com modelos preditivos.  
+
+### As etapas incluem:
+__1. Análise Exploratória dos Dados__  
+__2. Engenharia de Atributos__  
+__3. Pré-processamento dos Dados__  
+__4. Modelagem Preditiva com Machine Learning__  
+
+O objetivo central foi investigar, entender e transformar um conjunto de dados simulando operações de uma empresa internacional de e-commerce, a fim de identificar padrões, gerar insights e construir soluções baseadas em dados que pudessem orientar decisões estratégicas.
+
+Durante o processo, foram aplicadas técnicas modernas de análise estatística, visualização de dados, feature engineering, normalização, codificação e, por fim, a construção de um modelo de regressão preditiva para suporte à tomada de decisão — tudo isso utilizando Python e suas principais bibliotecas para ciência de dados.
