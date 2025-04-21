@@ -1,60 +1,102 @@
-# Projeto Integrado de E-Commerce Analytics com Python 🐍 
-Este projeto foi desenvolvido como trabalho avaliativo da disciplina de Machine Learning I, no 5º termo do Curso de Ciência de Dados da FATEC – Ourinhos.
+![Representação](imgs/ecommerce-regressao.jpg) 
+# 🛒 Análise de Vendas em E-commerce com Modelos de Regressão
+Este projeto tem como objetivo aplicar técnicas de **análise exploratória de dados (EDA)** e **modelagem preditiva** para entender os fatores que influenciam o **valor gasto por clientes** em uma loja de e-commerce. A partir de um dataset com variáveis comportamentais de navegação, exploramos insights estratégicos para o negócio e avaliamos modelos de regressão com foco na previsão de vendas.
+
+Projeto desenvolvido para a disciplina de Machine Learning I, no 5º termo do Curso de Ciência de Dados da FATEC – Ourinhos.
  
 __Professor:__ Vinicius Godoy  
 __Aluno:__ Pedro Gabriel Pito Lopes  
 __RA:__ 0211352313008 – Período Noturno  
 
+---
 
-![Representação](imgs/ecommerce-regressao.jpg) 
-Este projeto completo de análise de dados no contexto de E-Commerce foi desenvolvido em quatro etapas principais e interdependentes, refletindo o fluxo natural de um projeto de ciência de dados, desde a compreensão inicial dos dados até a geração de valor com modelos preditivos.  
+## 🐍 Link do Jupyter Notebook: [Jupyter Notebook](MLAnalise_Ecommerce/Vendas_Ecommerce.ipynb)  
 
-### As etapas incluem:
-__1. Análise Exploratória dos Dados__  
-__2. Engenharia de Atributos__  
-__3. Pré-processamento dos Dados__  
-__4. Modelagem Preditiva com Machine Learning__  
+---
 
-O objetivo central foi investigar, entender e transformar um conjunto de dados simulando operações de uma empresa internacional de e-commerce, a fim de identificar padrões, gerar insights e construir soluções baseadas em dados que pudessem orientar decisões estratégicas.
+## 🌟 Objetivo do Projeto
 
-Durante o processo, foram aplicadas técnicas modernas de análise estatística, visualização de dados, feature engineering, normalização, codificação e, por fim, a construção de um modelo de regressão preditiva para suporte à tomada de decisão — tudo isso utilizando Python e suas principais bibliotecas para ciência de dados.
+Identificar e analisar os principais fatores que influenciam o valor gasto por clientes em um e-commerce, com o intuito de:
+- Compreender o comportamento do consumidor.
+- Identificar canais com maior potencial de receita.
+- Fornecer insights para ações estratégicas baseadas em dados.
+- Construir um modelo de **regressão preditiva** para estimar o valor de gastos futuros.
 
+---
 
-![Espaço](imgs/espaco_menor.png) 
-## 🔎 Etapa 1 – Análise Exploratória de Dados no Contexto de E-Commerce Analytics  
+## 💭 Hipóteses de Negócio
 
-__Link:__ [🔗 Acessar](Analise_Exp_Ecommerce/Analise_Explo_Ecommerce.ipynb)  
+1. O tempo gasto no **site** influencia positivamente o valor gasto.
+2. O tempo gasto no **aplicativo mobile** impacta diretamente no valor de compras.
+3. O tempo médio de **atendimento ao cliente** pode estar relacionado ao valor gasto.
+4. A plataforma de acesso (site vs. app) pode indicar **diferenças no perfil de consumo**.
 
-A primeira etapa deste projeto teve como foco a compreensão inicial dos dados por meio da Análise Exploratória. Essa fase foi fundamental para identificar padrões, outliers, correlações e tendências que pudessem influenciar o comportamento dos consumidores e o desempenho logístico da empresa de e-commerce.  
+---
 
-Dividida entre uma análise estatística detalhada e a formulação de respostas a perguntas de negócio, essa etapa serviu como base para orientar as fases seguintes de engenharia de atributos, pré-processamento e modelagem preditiva.  
+## 🔍 Etapas Realizadas
 
+### 1. **Carregamento e inspeção do dataset**
+- Leitura do arquivo de dados.
+- Verificação de tipos de variáveis e dados faltantes.
 
-![Espaço](imgs/espaco_menor.png)
-## 📐 Etapa 2 – Engenharia de Atributos Aplicada ao E-Commerce
+### 2. **Análise Exploratória de Dados (EDA)**
+- Histogramas para observar distribuições.
+- Gráficos de dispersão para investigar correlações.
+- Cálculo de coeficientes de correlação entre variáveis.
 
-__Link:__ [🔗 Acessar](Eng_Atributos_Ecommerce/Engenharia_Atrib.ipynb)  
+### 3. **Modelagem Preditiva**
+- Construção de um modelo de **Regressão Linear Múltipla**.
+- Avaliação dos coeficientes e da significância estatística.
+- Análise de resíduos e desempenho do modelo (R², erro médio).
 
-Com base nos aprendizados obtidos na análise exploratória, esta etapa teve como objetivo enriquecer o conjunto de dados original com novas variáveis que pudessem captar melhor os fatores associados a atrasos nas entregas — uma das principais dores operacionais da empresa simulada.  
+---
 
-Foram criadas features a partir de variáveis existentes, como o tipo de transporte utilizado, o comportamento do cliente e o sistema de descontos, com o intuito de preparar o terreno para uma modelagem mais eficaz e explicativa na etapa seguinte.  
+## ❓ Perguntas de Negócio Respondidas
 
+- Existe relação entre o tempo no site e o valor gasto?
+- O tempo de uso do app é um bom preditor de compras?
+- Qual canal (site ou app) gera mais valor para o e-commerce?
+- A atuação do atendimento ao cliente influencia nas compras?
 
-![Espaço](imgs/espaco_menor.png)
-## ⚙️ Etapa 3 – Pré-processamento de Dados para Modelagem Preditiva  
+---
 
-__Link:__ [🔗 Acessar](Process_Dados_Ecommerce/Pre_Processamento.ipynb)  
+## 📈 Principais Insights
 
-A terceira fase do projeto consistiu na preparação técnica dos dados para alimentar algoritmos de machine learning. Nesta etapa, foram aplicadas transformações essenciais como a codificação de variáveis categóricas (Label Encoding e One-Hot Encoding) e o escalonamento de variáveis numéricas (normalização e padronização).  
+- O tempo gasto no **site** não mostrou correlação significativa com o valor gasto.
+- Já o tempo gasto no **aplicativo mobile** demonstrou **forte correlação positiva** com o valor gasto.
+- A variável relacionada ao **atendimento ao cliente** também mostrou impacto relevante.
+- O modelo de regressão indica que o **app é o principal canal** para geração de receita.
 
-O dataset utilizado foi enriquecido com as variáveis criadas na etapa de Engenharia de Atributos, garantindo uma base sólida e limpa para a fase final: a construção do modelo preditivo.  
+---
 
+## ✅ Conclusões
 
-![Espaço](imgs/espaco_menor.png)
-## 💸 Etapa 4 – Modelagem Preditiva com Machine Learning no E-Commerce  
+- Investimentos em melhorias na **experiência do aplicativo mobile** podem trazer maior retorno financeiro.
+- Estratégias voltadas exclusivamente ao site podem ter impacto limitado nas vendas.
+- O modelo de regressão oferece uma boa capacidade de previsão com base nas variáveis disponíveis.
 
-__Link:__ [🔗 Acessar](MLAnalise_Ecomerce/Vendas_Ecommerce.ipynb) 
+---
 
-A última etapa do projeto concentrou-se na aplicação de algoritmos de regressão para prever o impacto de diferentes comportamentos do usuário sobre o total de vendas. A empresa, com orçamento limitado, precisava decidir entre investir em melhorias na experiência de uso do site ou do aplicativo.  
+## 🔄 Próximos Passos
 
-Com os dados tratados e enriquecidos nas etapas anteriores, foi possível construir um modelo de machine learning capaz de estimar o potencial de retorno de cada plataforma. A análise forneceu insights estratégicos para orientar a tomada de decisão baseada em evidências, demonstrando o valor de todo o processo de E-Commerce Analytics conduzido neste projeto.  
+- Testar algoritmos mais robustos como **Random Forest** e **Gradient Boosting**.
+- Incorporar variáveis de marketing e perfil de usuário para refinar a previsão.
+- Segmentar clientes por grupo (novos vs. recorrentes) e realizar análises específicas.
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+.
+├── README.md                      # Descrição do projeto (este arquivo)
+├── imgs/                          # Imagens utilizadas no README
+└── MLAnalise_Ecomerce/
+    ├── Vendas_Ecommerce.ipynb     # Notebook principal com análise e modelo
+    └── dados/
+        └── dataset.csv            # Base de dados utilizada
+```
+
+---
+
+> Projeto desenvolvido para prática de ciência de dados com foco em modelagem preditiva e análise de comportamento do consumidor em e-commerce.
