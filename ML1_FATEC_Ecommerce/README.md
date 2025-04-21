@@ -45,7 +45,7 @@ Identificar e analisar os principais fatores que influenciam o valor gasto por c
 - Cálculo de coeficientes de correlação entre variáveis.
 
 ### 3. **Modelagem Preditiva**
-- Construção de um modelo de **Regressão Linear Múltipla**.
+- Construção de modelos de **Regressão**.
 - Avaliação dos coeficientes e da significância estatística.
 - Análise de resíduos e desempenho do modelo (R², erro médio).
 
