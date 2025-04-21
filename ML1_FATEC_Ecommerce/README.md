@@ -10,7 +10,7 @@ __RA:__ 0211352313008 – Período Noturno
 
 ---
 
-## 🐍 Link do Jupyter Notebook: [Jupyter Notebook](MLAnalise_Ecommerce/Vendas_Ecommerce.ipynb)  
+## 🐍 Link do Jupyter Notebook: [Jupyter Notebook](https://github.com/gabrielpito92/projetos_fatec/blob/main/ML1_FATEC_Ecommerce/MLAnalise_Ecomerce/Vendas_Ecommerce.ipynb)  
 
 ---
 
