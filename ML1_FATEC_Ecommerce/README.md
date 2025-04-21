@@ -1,6 +1,6 @@
 ![Representação](imgs/ecommerce-regressao.jpg) 
 # 🛒 Análise de Vendas em E-commerce com Modelos de Regressão
-Este projeto tem como objetivo aplicar técnicas de **análise exploratória de dados (EDA)** e **modelagem preditiva** para entender os fatores que influenciam o **valor gasto por clientes** em uma loja de e-commerce. A partir de um dataset com variáveis comportamentais de navegação, exploramos insights estratégicos para o negócio e avaliamos modelos de regressão com foco na previsão de vendas.
+Este projeto tem como objetivo aplicar técnicas de **análise exploratória de dados (EDA)** e **modelagem preditiva** para entender os fatores que influenciam o **valor gasto por clientes** em uma loja de e-commerce. A partir de um dataset com variáveis comportamentais de navegação, explorei insights estratégicos para o negócio e avaliei modelos de regressão com foco na previsão de vendas.
 
 Projeto desenvolvido para a disciplina de Machine Learning I, no 5º termo do Curso de Ciência de Dados da FATEC – Ourinhos.
  
