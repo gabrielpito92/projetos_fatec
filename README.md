@@ -45,24 +45,16 @@ Catálogo de estações automáticas do INMET: https://portal.inmet.gov.br/pagin
 
 
 ![Espaço](imgs/espaco_menor.png)   
-## 💼 Projeto 4 [🔗 Acessar](ML1_FATEC_Ecommerce/README.md)
-### E-Commerce Analytics com Python 🐍 
-Este projeto foi desenvolvido como trabalho avaliativo da disciplina de Machine Learning I, no 5º termo do Curso de Ciência de Dados da FATEC – Ourinhos.
+## 🛒 Análise de Vendas em E-commerce com Modelos de Regressão [🔗 Acessar](https://github.com/gabrielpito92/projetos_fatec/blob/main/ML1_FATEC_Ecommerce/README.md)
+![Representação](imgs/ecommerce-regressao.jpg) 
+Este projeto tem como objetivo aplicar técnicas de **análise exploratória de dados (EDA)** e **modelagem preditiva** para entender os fatores que influenciam o **valor gasto por clientes** em uma loja de e-commerce. A partir de um dataset com variáveis comportamentais de navegação, explorei insights estratégicos para o negócio e avaliei modelos de regressão com foco na previsão de vendas.
+
+Projeto desenvolvido para a disciplina de Machine Learning I, no 5º termo do Curso de Ciência de Dados da FATEC – Ourinhos.
  
 __Professor:__ Vinicius Godoy  
 __Aluno:__ Pedro Gabriel Pito Lopes  
 __RA:__ 0211352313008 – Período Noturno  
 
+---
 
-![Representação](imgs/ecommerce-regressao.jpg) 
-Este projeto completo de análise de dados no contexto de E-Commerce foi desenvolvido em quatro etapas principais e interdependentes, refletindo o fluxo natural de um projeto de ciência de dados, desde a compreensão inicial dos dados até a geração de valor com modelos preditivos.  
-
-### As etapas incluem:
-__1. Análise Exploratória dos Dados__  
-__2. Engenharia de Atributos__  
-__3. Pré-processamento dos Dados__  
-__4. Modelagem Preditiva com Machine Learning__  
-
-O objetivo central foi investigar, entender e transformar um conjunto de dados simulando operações de uma empresa internacional de e-commerce, a fim de identificar padrões, gerar insights e construir soluções baseadas em dados que pudessem orientar decisões estratégicas.
-
-Durante o processo, foram aplicadas técnicas modernas de análise estatística, visualização de dados, feature engineering, normalização, codificação e, por fim, a construção de um modelo de regressão preditiva para suporte à tomada de decisão — tudo isso utilizando Python e suas principais bibliotecas para ciência de dados.
+#### 🐍 Link do Jupyter Notebook: [Jupyter Notebook](https://github.com/gabrielpito92/projetos_fatec/blob/main/ML1_FATEC_Ecommerce/MLAnalise_Ecomerce/Vendas_Ecommerce.ipynb)  
