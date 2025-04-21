@@ -45,7 +45,7 @@ Catálogo de estações automáticas do INMET: https://portal.inmet.gov.br/pagin
 
 
 ![Espaço](imgs/espaco_menor.png)   
-## 🛒 PROJETO 4: Análise de Vendas em E-commerce com Modelos de Regressão [🔗 Acessar](https://github.com/gabrielpito92/projetos_fatec/blob/main/ML1_FATEC_Ecommerce/README.md)
+## 🛒 Projeto 4: Análise de Vendas em E-commerce com Modelos de Regressão [🔗 Acessar](https://github.com/gabrielpito92/projetos_fatec/blob/main/ML1_FATEC_Ecommerce/README.md)
 ![Representação](imgs/ecommerce-regressao.jpg) 
 Este projeto tem como objetivo aplicar técnicas de **análise exploratória de dados (EDA)** e **modelagem preditiva** para entender os fatores que influenciam o **valor gasto por clientes** em uma loja de e-commerce. A partir de um dataset com variáveis comportamentais de navegação, explorei insights estratégicos para o negócio e avaliei modelos de regressão com foco na previsão de vendas.
 
