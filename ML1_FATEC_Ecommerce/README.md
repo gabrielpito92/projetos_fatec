@@ -11,8 +11,8 @@ __RA:__ 0211352313008 – Período Noturno
 ---
 
 ## 🐍 Link do Jupyter Notebook: [Jupyter Notebook](https://github.com/gabrielpito92/projetos_fatec/blob/main/ML1_FATEC_Ecommerce/MLAnalise_Ecomerce/Vendas_Ecommerce.ipynb)  
-
----
+__Dataset utilizado: Dados gerados por IA - fictícios__  
+Os dados usados neste projeto são fictícios, mas que representam dados reais para empresas  de  e-commerce. Os  dados  representam um  mês  de  operação  do portal  de  e-commerce. O título de cada coluna no conjunto de dados é auto-explicativo.
 
 ## 🌟 Objetivo do Projeto
 
